@@ -1,0 +1,67 @@
+#what .items {
+    display: block;
+}
+
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+
+/* Aligning icons to center */
+#what .items .item i {
+    margin-right: 1.3rem;
+    align-self: center;
+}
+
+
+@media (max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar .logo {
+        margin-bottom: 0.5rem;
+    }
+
+    #navbar ul {
+        padding: 0.5rem;
+    }
+
+    #who {
+        display: block;
+    }
+
+    #who .who-img {
+        display: none;
+    }
+
+    #clients .items img {
+        width: 80%;
+    }
+
+    #clients .items div:last-child {
+        display: none;
+    }
+
+    #contact {
+        display: block;
+    }
+
+    #contact .map {
+        height: 500px;
+        border-top: 5px solid #333;
+    }
+
+    #contact .contact-form input,
+    #contact .contact-form textarea {
+        font-size: 0.85rem;
+    }
+
+    .l-heading {
+        font-size: 3.5rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
